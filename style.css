@@ -3,16 +3,20 @@ body{
           font-family: system-ui, system-ui, sans-serif;
          
 }
-h1{
-          font-size:50px ;
-}
 
+.about-us{
+          color: dimgrey;
+          font-size: 15px;
+          font-weight: 400;
+}
 .color-orange{
           color: orange;
 } 
-section{
-          display: flex;
- } 
+.header h1{
+       font-size:80px;
+       margin-bottom: 0;
+}
+ 
  .header{
            width: 100%;
            font-size:20px;
@@ -20,8 +24,10 @@ section{
            padding-left: 10%;
            padding-right: 10%;
           
-
-          
+ }
+ .header p{
+        color: dimgrey;
+        font-weight:400px;
  }
  .half-width img{       
       width:80%;
@@ -31,9 +37,216 @@ section{
  }
  .link-button{
           text-decoration: none;
-          background-image: linear-gradient(salmon , orange);
+          background-image: linear-gradient(salmon , pink);
           padding: 10px 40px;
           color: white;
           font-weight: 700;
           border-radius: 10px;
  }
+
+ .container{
+     display: flex;
+     margin-bottom: 150px;
+}
+.container::after{
+     content: '';
+     width: 10px;
+     height: 57%;
+     background: linear-gradient(salmon,pink);
+     position: absolute;
+     left: -40px;
+     top:8px;
+}
+
+ .mission-fl{
+      font-size:60px;
+      text-align: center;
+ }
+
+.last-part{
+          color:teal;           
+}
+.half-width1{
+     font-size:15px;
+     border:none;
+     background: rgb(190, 201, 218);
+     width: 40%;
+     margin-top:20px;
+     margin-left:100px;
+     margin-right:6px;
+     margin-bottom:2%;
+     padding:5px 20px 8px ;
+     border-radius: 50px; 
+}
+
+.half-width2{
+     width: 40%;
+     font-size:15px;
+     border:none;
+     background: rgb(238, 206, 231);
+     margin-top:20px;
+     margin-right:25px;
+     margin-left:20px;
+     margin-bottom: 2%;
+     padding:5px 20px 8px;
+     border-radius: 50px;
+}
+
+.half-width3{
+     width: 40%;
+     font-size:15px;
+     border:none;
+     background: rgb(209, 206, 184);
+     margin-top:20px;
+     margin-right:100px;
+     margin-bottom:2%;
+     padding:5px 20px 8px;
+     border-radius: 50px;
+}
+.mission-part img{
+     width: 50%;
+}
+.flaxible-container{
+     display: flex;
+}
+.develop-part{
+     display: flex;
+     
+}
+    
+.develop-part h1{
+     font-size:60px;
+     margin-top:14%;
+    
+}
+.develop-part p{
+     font-size:30px;
+     margin-right:10%;
+}
+
+
+.develop-width img{
+     width:60%;
+     margin-top:8%;
+     margin-left:30%;
+
+}
+
+.linked-button{
+     text-decoration: none;
+     background-image: linear-gradient(salmon , pink);
+     color: white;
+     font-size:20px;
+     font-weight:400;
+     padding: 8px 10px 10px;
+     border-radius: 10px;
+}
+.develop-part{
+     background-image: url(images/shapes/shape-1.png);
+     background-repeat: no-repeat;
+     background-size: 20%;
+     background-position: 10%;
+  
+
+}
+.gloval-part{
+     display: flex;
+}
+
+.gloval-part h1{
+     font-size:60px;
+     margin-top:27%;
+     margin-left: 20%;
+    
+}
+.gloval-part p{
+     font-size:25px;
+     margin-left: 20%;
+
+}
+
+
+.gloval-part img{
+     display: flex;
+     width:60%; 
+     margin-top: 10%;
+     margin-right: 10%;
+     margin-bottom: 10%;
+     margin-left:15%;   
+
+}
+
+.linked-button{
+     text-decoration: none;
+     background-image: linear-gradient(salmon ,lavender);
+     color: white;
+     font-size:20px;
+     font-weight:400;
+     margin-left: 20%;
+     padding: 8px 10px 10px;
+     border-radius: 10px;
+}
+.last-p{
+     color:teal
+}
+.applica-tion{
+     font-size:60px;
+     text-align: center;
+}
+.colo-red{
+     color: teal;
+}
+.applica-part{
+     display: flex;
+}
+.applica-part h1{
+     font-size:60px;
+     margin-top:14%;
+}
+.applica-part p{
+     font-size:30px;
+     margin-right:10%;
+}
+.applica-part img{
+     display: flex;
+     width:60%;
+     margin-top:8%;
+     margin-left:30%; 
+}
+
+
+.linkeed-button{
+     text-decoration: none;
+     background-image: linear-gradient(tomato , lightblue);
+     color:white;
+     font-size:22px;
+     font-weight:700;
+     margin-right: 20%;
+     padding: 12px 15px 10px;
+     border-radius: 10px;
+}
+
+footer{
+     display: block;
+     background: black;
+     margin-top:10%;
+     padding: 80px 5px;
+     text-align: center;
+     font-size: 25px;
+
+
+}
+.mi-ssion{
+     color: white;
+}
+.foo-ter{
+     color: orange;
+}
+.para-graph{
+     color: #f9f9f9;
+}
+     
+
+
+
+
