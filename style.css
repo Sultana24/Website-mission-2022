@@ -227,13 +227,11 @@ body{
 }
 
 footer{
-     display: block;
-     background: black;
-     margin-top:10%;
-     padding: 80px 5px;
-     text-align: center;
-     font-size: 25px;
-
+     
+  text-align: center;
+    justify-content: center;
+    background-color: #28282B;
+    border: 0%;
 
 }
 .mi-ssion{
